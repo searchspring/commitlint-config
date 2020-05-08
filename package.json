@@ -46,6 +46,7 @@
     "major": "npm version major && npm publish",
     "minor": "npm version minor && npm publish",
     "patch": "npm version patch && npm publish",
+    "postpublish": "git push",
     "prepare": "fixpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
