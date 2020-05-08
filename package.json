@@ -43,6 +43,9 @@
   },
   "scripts": {
     "commit": "git-cz",
+    "major": "npm version major && npm publish",
+    "minor": "npm version minor && npm publish",
+    "patch": "npm version patch && npm publish",
     "prepare": "fixpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
